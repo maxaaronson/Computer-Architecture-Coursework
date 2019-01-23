@@ -1,0 +1,121 @@
+﻿Now on instruction 0
+In Hex: 022DA822
+In Binary: 00000010001011011010100000100010
+Opcode: 0
+rs: 17
+rt: 13
+R-Format
+rd: 21
+shamt: 0
+funct: 34
+RESULT: 7A060 Sub $21, $17, $13
+--------------------------------------------------------
+Now on instruction 1
+In Hex: 8EF30018
+In Binary: 10001110111100110000000000011000
+Opcode: 35
+rs: 23
+rt: 19
+I-Format
+PC Offset: 24
+RESULT: 7A064 lw $19, 24($23)
+--------------------------------------------------------
+Now on instruction 2
+In Hex: 12A70004
+In Binary: 00010010101001110000000000000100
+Opcode: 4
+rs: 21
+rt: 7
+I-Format
+PC Offset: 4
+RESULT: 7A068 beq $7, $21, Address 7A07C
+--------------------------------------------------------
+Now on instruction 3
+In Hex: 02689820
+In Binary: 00000010011010001001100000100000
+Opcode: 0
+rs: 19
+rt: 8
+R-Format
+rd: 19
+shamt: 0
+funct: 32
+RESULT: 7A06C Add $19, $19, $8
+--------------------------------------------------------
+Now on instruction 4
+In Hex: AD930018
+In Binary: 10101101100100110000000000011000
+Opcode: 43
+rs: 12
+rt: 19
+I-Format
+PC Offset: 24
+RESULT: 7A070 sw $19, 24($12)
+--------------------------------------------------------
+Now on instruction 5
+In Hex: 02697824
+In Binary: 00000010011010010111100000100100
+Opcode: 0
+rs: 19
+rt: 9
+R-Format
+rd: 15
+shamt: 0
+funct: 36
+RESULT: 7A074 AND $15, $19, $9
+--------------------------------------------------------
+Now on instruction 6
+In Hex: AD8FFFF4
+In Binary: 10101101100011111111111111110100
+Opcode: 43
+rs: 12
+rt: 15
+I-Format
+PC Offset: -12
+RESULT: 7A078 sw $15, -12($12)
+--------------------------------------------------------
+Now on instruction 7
+In Hex: 018C6020
+In Binary: 00000001100011000110000000100000
+Opcode: 0
+rs: 12
+rt: 12
+R-Format
+rd: 12
+shamt: 0
+funct: 32
+RESULT: 7A07C Add $12, $12, $12
+--------------------------------------------------------
+Now on instruction 8
+In Hex: 02A4A825
+In Binary: 00000010101001001010100000100101
+Opcode: 0
+rs: 21
+rt: 4
+R-Format
+rd: 21
+shamt: 0
+funct: 37
+RESULT: 7A080 OR $21, $21, $4
+--------------------------------------------------------
+Now on instruction 9
+In Hex: 158FFFF6
+In Binary: 00010101100011111111111111110110
+Opcode: 5
+rs: 12
+rt: 15
+I-Format
+PC Offset: -10
+RESULT: 7A084 bne $15, $12, Address 7A060
+--------------------------------------------------------
+Now on instruction 10
+In Hex: 8E59FFF0
+In Binary: 10001110010110011111111111110000
+Opcode: 35
+rs: 18
+rt: 25
+I-Format
+PC Offset: -16
+RESULT: 7A088 lw $25, -16($18)
+--------------------------------------------------------
+

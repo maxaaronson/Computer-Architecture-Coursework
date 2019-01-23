@@ -1,0 +1,792 @@
+﻿------------------------------------------------
+Clock Cycle 0
+
+IF_ID Write: 
+instruction= a1020000
+
+IF_ID Read: 
+instruction= 00000000
+
+ID_EX Write: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+ID_EX Read: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+EX_MEM Write: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+EX_MEM Read: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+MEM_WB Write: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+MEM_WB Read: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 10a
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 1
+
+IF_ID Write: 
+instruction= 810afffc
+
+IF_ID Read: 
+instruction= a1020000
+
+ID_EX Write: (Sb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=0, MemWrite=1, RegWrite=0, MemToReg=0,
+ ReadReg1Value=108, ReadReg2Value=102, rt=2, rd=0, funct=0, SEOffset=0, SWValue=102
+
+ID_EX Read: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+EX_MEM Write: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+EX_MEM Read: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+MEM_WB Write: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+MEM_WB Read: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 10a
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 2
+
+IF_ID Write: 
+instruction= 00831820
+
+IF_ID Read: 
+instruction= 810afffc
+
+ID_EX Write: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=108, ReadReg2Value=10a, rt=10, rd=31, funct=3c, SEOffset=fffffffc, SWValue=10a
+
+ID_EX Read: (Sb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=0, MemWrite=1, RegWrite=0, MemToReg=0,
+ ReadReg1Value=108, ReadReg2Value=102, rt=2, rd=0, funct=0, SEOffset=0, SWValue=102
+
+EX_MEM Write: (Sb)
+MemRead=0, MemWrite=1, RegWrite=0, MemToReg=0,
+ AluResult=108, SWValue=102, WriteRegNum=2
+
+EX_MEM Read: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+MEM_WB Write: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+MEM_WB Read: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 10a
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 3
+
+IF_ID Write: 
+instruction= 01263820
+
+IF_ID Read: 
+instruction= 00831820
+
+ID_EX Write: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=104, ReadReg2Value=103, rt=3, rd=3, funct=20, SEOffset=1820, SWValue=103
+
+ID_EX Read: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=108, ReadReg2Value=10a, rt=10, rd=31, funct=3c, SEOffset=fffffffc, SWValue=10a
+
+EX_MEM Write: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=104, SWValue=10a, WriteRegNum=10
+
+EX_MEM Read: (Sb)
+MemRead=0, MemWrite=1, RegWrite=0, MemToReg=0,
+ AluResult=108, SWValue=102, WriteRegNum=2
+
+MEM_WB Write: (Sb)
+RegWrite=0, MemToReg=0,
+ AluResult=108, RegWriteNum=2, LWDataValue=0
+
+MEM_WB Read: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 10a
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 4
+
+IF_ID Write: 
+instruction= 01224820
+
+IF_ID Read: 
+instruction= 01263820
+
+ID_EX Write: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=109, ReadReg2Value=106, rt=6, rd=7, funct=20, SEOffset=3820, SWValue=106
+
+ID_EX Read: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=104, ReadReg2Value=103, rt=3, rd=3, funct=20, SEOffset=1820, SWValue=103
+
+EX_MEM Write: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=207, SWValue=103, WriteRegNum=3
+
+EX_MEM Read: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=104, SWValue=10a, WriteRegNum=10
+
+MEM_WB Write: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=104, RegWriteNum=10, LWDataValue=4
+
+MEM_WB Read: (Sb)
+RegWrite=0, MemToReg=0,
+ AluResult=108, RegWriteNum=2, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 10a
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 5
+
+IF_ID Write: 
+instruction= 81180000
+
+IF_ID Read: 
+instruction= 01224820
+
+ID_EX Write: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=109, ReadReg2Value=102, rt=2, rd=9, funct=20, SEOffset=4820, SWValue=102
+
+ID_EX Read: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=109, ReadReg2Value=106, rt=6, rd=7, funct=20, SEOffset=3820, SWValue=106
+
+EX_MEM Write: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=20f, SWValue=106, WriteRegNum=7
+
+EX_MEM Read: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=207, SWValue=103, WriteRegNum=3
+
+MEM_WB Write: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=207, RegWriteNum=3, LWDataValue=0
+
+MEM_WB Read: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=104, RegWriteNum=10, LWDataValue=4
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 103
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 6
+
+IF_ID Write: 
+instruction= 81510010
+
+IF_ID Read: 
+instruction= 81180000
+
+ID_EX Write: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=108, ReadReg2Value=118, rt=24, rd=0, funct=0, SEOffset=0, SWValue=118
+
+ID_EX Read: (Add)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=109, ReadReg2Value=102, rt=2, rd=9, funct=20, SEOffset=4820, SWValue=102
+
+EX_MEM Write: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=20b, SWValue=102, WriteRegNum=9
+
+EX_MEM Read: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=20f, SWValue=106, WriteRegNum=7
+
+MEM_WB Write: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=20f, RegWriteNum=7, LWDataValue=0
+
+MEM_WB Read: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=207, RegWriteNum=3, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 107
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 7
+
+IF_ID Write: 
+instruction= 00624022
+
+IF_ID Read: 
+instruction= 81510010
+
+ID_EX Write: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=4, ReadReg2Value=111, rt=17, rd=0, funct=10, SEOffset=10, SWValue=111
+
+ID_EX Read: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=108, ReadReg2Value=118, rt=24, rd=0, funct=0, SEOffset=0, SWValue=118
+
+EX_MEM Write: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=108, SWValue=118, WriteRegNum=24
+
+EX_MEM Read: (Add)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=20b, SWValue=102, WriteRegNum=9
+
+MEM_WB Write: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=20b, RegWriteNum=9, LWDataValue=0
+
+MEM_WB Read: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=20f, RegWriteNum=7, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 20f
+Value at Register 08: 108
+Value at Register 09: 109
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 8
+
+IF_ID Write: 
+instruction= 00000000
+
+IF_ID Read: 
+instruction= 00624022
+
+ID_EX Write: (Sub)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=207, ReadReg2Value=102, rt=2, rd=8, funct=22, SEOffset=4022, SWValue=102
+
+ID_EX Read: (Lb)
+RegDst=0, ALUOp=0, ALUSrc=1, MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ ReadReg1Value=4, ReadReg2Value=111, rt=17, rd=0, funct=10, SEOffset=10, SWValue=111
+
+EX_MEM Write: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=14, SWValue=111, WriteRegNum=17
+
+EX_MEM Read: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=108, SWValue=118, WriteRegNum=24
+
+MEM_WB Write: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=108, RegWriteNum=24, LWDataValue=102
+
+MEM_WB Read: (Add)
+RegWrite=1, MemToReg=0,
+ AluResult=20b, RegWriteNum=9, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 20f
+Value at Register 08: 108
+Value at Register 09: 20b
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 118
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 9
+
+IF_ID Write: 
+instruction= 00000000
+
+IF_ID Read: 
+instruction= 00000000
+
+ID_EX Write: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+ID_EX Read: (Sub)
+RegDst=1, ALUOp=10, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ ReadReg1Value=207, ReadReg2Value=102, rt=2, rd=8, funct=22, SEOffset=4022, SWValue=102
+
+EX_MEM Write: (Sub)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=105, SWValue=102, WriteRegNum=8
+
+EX_MEM Read: (Lb)
+MemRead=1, MemWrite=0, RegWrite=1, MemToReg=1,
+ AluResult=14, SWValue=111, WriteRegNum=17
+
+MEM_WB Write: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=14, RegWriteNum=17, LWDataValue=14
+
+MEM_WB Read: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=108, RegWriteNum=24, LWDataValue=102
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 20f
+Value at Register 08: 108
+Value at Register 09: 20b
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 111
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 102
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 10
+
+IF_ID Write: 
+instruction= 00000000
+
+IF_ID Read: 
+instruction= 00000000
+
+ID_EX Write: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+ID_EX Read: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+EX_MEM Write: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+EX_MEM Read: (Sub)
+MemRead=0, MemWrite=0, RegWrite=1, MemToReg=0,
+ AluResult=105, SWValue=102, WriteRegNum=8
+
+MEM_WB Write: (Sub)
+RegWrite=1, MemToReg=0,
+ AluResult=105, RegWriteNum=8, LWDataValue=0
+
+MEM_WB Read: (Lb)
+RegWrite=1, MemToReg=1,
+ AluResult=14, RegWriteNum=17, LWDataValue=14
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 20f
+Value at Register 08: 108
+Value at Register 09: 20b
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 14
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 102
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f
+------------------------------------------------
+Clock Cycle 11
+
+IF_ID Write: 
+instruction= 00000000
+
+IF_ID Read: 
+instruction= 00000000
+
+ID_EX Write: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+ID_EX Read: (NOP)
+RegDst=0, ALUOp=0, ALUSrc=0, MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ ReadReg1Value=0, ReadReg2Value=0, rt=0, rd=0, funct=0, SEOffset=0, SWValue=0
+
+EX_MEM Write: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+EX_MEM Read: (NOP)
+MemRead=0, MemWrite=0, RegWrite=0, MemToReg=0,
+ AluResult=0, SWValue=0, WriteRegNum=0
+
+MEM_WB Write: (NOP)
+RegWrite=0, MemToReg=0,
+ AluResult=0, RegWriteNum=0, LWDataValue=0
+
+MEM_WB Read: (Sub)
+RegWrite=1, MemToReg=0,
+ AluResult=105, RegWriteNum=8, LWDataValue=0
+
+Register Values:
+Value at Register 00: 0
+Value at Register 01: 101
+Value at Register 02: 102
+Value at Register 03: 207
+Value at Register 04: 104
+Value at Register 05: 105
+Value at Register 06: 106
+Value at Register 07: 20f
+Value at Register 08: 105
+Value at Register 09: 20b
+Value at Register 10: 4
+Value at Register 11: 10b
+Value at Register 12: 10c
+Value at Register 13: 10d
+Value at Register 14: 10e
+Value at Register 15: 10f
+Value at Register 16: 110
+Value at Register 17: 14
+Value at Register 18: 112
+Value at Register 19: 113
+Value at Register 20: 114
+Value at Register 21: 115
+Value at Register 22: 116
+Value at Register 23: 117
+Value at Register 24: 102
+Value at Register 25: 119
+Value at Register 26: 11a
+Value at Register 27: 11b
+Value at Register 28: 11c
+Value at Register 29: 11d
+Value at Register 30: 11e
+Value at Register 31: 11f

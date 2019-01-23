@@ -1,0 +1,138 @@
+﻿Output:
+Instruction: Read
+Address: 5
+At that byte, the value is 5 (Cache Miss)
+Instruction: Read
+Address: 6
+At that byte, the value is 6 (Cache Hit)
+Instruction: Read
+Address: 7
+At that byte, the value is 7 (Cache Hit)
+Instruction: Read
+Address: 14c
+At that byte, the value is 4c (Cache Miss)
+Instruction: Read
+Address: 14d
+At that byte, the value is 4d (Cache Hit)
+Instruction: Read
+Address: 14e
+At that byte, the value is 4e (Cache Hit)
+Instruction: Read
+Address: 14f
+At that byte, the value is 4f (Cache Hit)
+Instruction: Read
+Address: 150
+At that byte, the value is 50 (Cache Miss)
+Instruction: Read
+Address: 151
+At that byte, the value is 51 (Cache Hit)
+Instruction: Read
+Address: 3a6
+At that byte, the value is a6 (Cache Miss)
+Instruction: Read
+Address: 4c3
+At that byte, the value is c3 (Cache Miss)
+Instruction: Display
+Slot  Valid  Dirty  Tag       Data
+0      1      0      0        0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
+1      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+2      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+3      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+4      1      0      1        40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 
+5      1      0      1        50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 
+6      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+7      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+8      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+9      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+a      1      0      3        a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af 
+b      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+c      1      0      4        c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf 
+d      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+e      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+f      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+Instruction: Write
+Address: 14c
+New Value: 99
+At that byte, the value 99 has been written (Cache Hit)
+Instruction: Write
+Address: 63b
+New Value: 7
+At that byte, the value 7 has been written (Cache Miss)
+Instruction: Read
+Address: 582
+At that byte, the value is 82 (Cache Miss)
+Instruction: Display
+Slot  Valid  Dirty  Tag       Data
+0      1      0      0        0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
+1      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+2      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+3      1      1      6        30 31 32 33 34 35 36 37 38 39 3a 7  3c 3d 3e 3f 
+4      1      1      1        40 41 42 43 44 45 46 47 48 49 4a 4b 99 4d 4e 4f 
+5      1      0      1        50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 
+6      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+7      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+8      1      0      5        80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 
+9      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+a      1      0      3        a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af 
+b      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+c      1      0      4        c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf 
+d      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+e      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+f      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+Instruction: Read
+Address: 348
+Conflict Miss: Block in slot written back to Main Memory starting at address 140
+At that byte, the value is 48 (Cache Miss)
+Instruction: Read
+Address: 3f
+Conflict Miss: Block in slot written back to Main Memory starting at address 630
+At that byte, the value is 3f (Cache Miss)
+Instruction: Display
+Slot  Valid  Dirty  Tag       Data
+0      1      0      0        0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
+1      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+2      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+3      1      0      0        30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 
+4      1      0      3        40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 
+5      1      0      1        50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 
+6      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+7      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+8      1      0      5        80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 
+9      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+a      1      0      3        a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af 
+b      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+c      1      0      4        c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf 
+d      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+e      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+f      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+Instruction: Read
+Address: 14b
+At that byte, the value is 4b (Cache Miss)
+Instruction: Read
+Address: 14c
+At that byte, the value is 99 (Cache Hit)
+Instruction: Read
+Address: 63f
+At that byte, the value is 3f (Cache Miss)
+Instruction: Read
+Address: 83
+At that byte, the value is 83 (Cache Miss)
+Instruction: Display
+Slot  Valid  Dirty  Tag       Data
+0      1      0      0        0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
+1      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+2      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+3      1      0      6        30 31 32 33 34 35 36 37 38 39 3a 7  3c 3d 3e 3f 
+4      1      0      1        40 41 42 43 44 45 46 47 48 49 4a 4b 99 4d 4e 4f 
+5      1      0      1        50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 
+6      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+7      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+8      1      0      0        80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 
+9      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+a      1      0      3        a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af 
+b      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+c      1      0      4        c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf 
+d      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+e      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+f      0      0      0        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  
+
